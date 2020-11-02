@@ -34,3 +34,9 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore Spotify auth credentials
+/config/initializers/spotify_setup.rb
+
+# Ignore api keys
+.env
