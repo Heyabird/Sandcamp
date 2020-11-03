@@ -16,7 +16,11 @@ body {
 
 .nav-bar {
   display: flex;
-  padding: 12px;
+  padding: 10px 40px;
+}
+
+.logo img {
+  width: 110px;
 }
 
 a {
@@ -29,7 +33,6 @@ a:hover {
 }
 
 .logo {
-  background-image: url(sandcamp_logo.png);
 }
 
 .form-control {
