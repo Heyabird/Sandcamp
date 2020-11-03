@@ -1,3 +1,4 @@
+RSpotify::authenticate('a0b548bd1bd64de2b3277d9dc4d12923', '5b9544235a6243eca69907df30149128')
 # @client_id = ENV['SPOTIFY_CLIENT_ID']
 # @client_secret = ENV['SPOTIFY_CLIENT_SECRET']
 # RSpotify::authenticate(@client_id, @client_secret)

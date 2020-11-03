@@ -1,9 +1,31 @@
-<div class="container">
-    <h1 class="page-header">Discover Gems</h1>
-    <%= form_tag artists_path, method: "get", html: { class: "form" } do %>
-    <div class="form-group col-xs-4">
-    <%= text_field_tag(:artist_name, "", placeholder: "Enter artist name", class: "artist-name-field") %>
+<nav class="nav-bar">
+  <a class="logo"><img src="sandcamp_logo.png"/></a>
+  <form class="form-inline search-bar">
+    <input class="form-control mr-sm-2 " type="search" placeholder="Search and discover music" aria-label="Search">
+     <div class="dropdown-contents">
+        <a class="dropdown-content" href="https://bandcamp.com/tag/electronic">electronic</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/metal/">metal</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/rock/">rock</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/alternative/">alternative</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/hip-hop/rap/">hip-hop/rap</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/experimental/">experimental</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/punk/">punk</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/pop/">pop</a>
+        <a class="dropdown-content" href="https://bandcamp.com/tag/ambient/">ambient</a>
+        <a class="dropdown-content" href="https://bandcamp.com/?t=undefined&g=all#discover">browse all</a>
     </div>
-    <%= submit_tag "Search", class: "btn btn-primary" %>
-    <% end %>
+  </form>
+</nav>
+<div id="intro-section">
+    <p>Blah blah blah</p>
 </div>
+
+<%# <div class="container"> %>
+    <%# <h1 class="page-header">Discover Gems</h1> %>
+    <%# <%= form_tag artists_path, method: "get", html: { class: "form" } do %>
+    <%# <div class="form-group col-xs-4"> %>
+    <%# <%= text_field_tag(:artist_name, "", placeholder: "Enter artist name", class: "artist-name-field") %>
+    <%# </div> %>
+    <%# <%= submit_tag "Search", class: "btn btn-primary" %> 
+    <%# <% end %> 
+<%# </div> %>
