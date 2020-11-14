@@ -40,3 +40,6 @@ yarn-debug.log*
 
 # Ignore api keys
 .env
+
+# Ignore application configuration
+/config/application.yml
