@@ -14,6 +14,12 @@ body {
   font-family: 'Helvetica Nueue', sans-serif !important;
 }
 
+.top-divider {
+  height: 0;
+  border-top: 2px dotted #ccc;
+  padding: 36px 0;
+}
+
 .nav-bar {
   display: flex;
   padding: 10px 40px;
@@ -23,13 +29,10 @@ body {
   width: 110px;
 }
 
-a {
-  color: white !important;
-}
 
 a:hover {
   text-decoration: none;
-  color: white !important;
+  // color: white !important;
 }
 
 .logo {
@@ -124,4 +127,79 @@ a:hover {
 
 #show_btn a{
   background-color: blue;
+}
+
+#user-nav {
+  position: absolute;
+  right: 1rem;
+}
+
+#user-nav a{
+  color: black;
+}
+
+// auth pages
+.auth_nav {
+  background-color:#dddddd;
+  height: 121px;
+}
+
+ a {
+  color: rgb(0,161,198) !important;
+}
+
+.auth_logo img{
+  // background: transparent url(/img/bandcamp-logo-color-bcaqua.svg) no-repeat;
+  // background-size: 100%;
+  margin: 44px 0 0 44px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  // width: 135px;
+  // margin: 0.67em 0;
+}
+
+.auth_page {
+  // fill the whole page;
+  position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+  background-color: #f3f3f3;
+  margin: auto;
+  text-align: center;
+  // padding-top: 2rem;
+}
+
+.content {
+  width: 650px;
+  min-height: 550px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 36px;
+}
+
+#user_email, #user_password {
+  background-color: white !important;
+  width: 300px;
+  height: 35px;
+  border: 1px solid #ccc;
+}
+
+.auth_btn {
+  background-color: #00a1c6;
+  color: white;
+  border: none;
+  width: 300px;
+  height: 35px;
+  margin: 20px 0;
+}
+
+.test {
+  background-color: red;
 }
