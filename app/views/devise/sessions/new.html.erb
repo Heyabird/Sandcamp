@@ -1,6 +1,6 @@
 <div class="auth_page">
   <nav class="auth_nav">
-    <div class="auth_logo"><img src="/assets/sandcamp_logo.svg"/></div>
+    <a class="auth_logo"><img src="/assets/sandcamp_logo.svg"/></a>
 </nav>
 
   <div class="content">
@@ -8,12 +8,12 @@
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="top-divider">
       <div class="field">
-        <%= f.label :email %>
+        <%= f.label :email, :class => 'email_label' %>
         <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
       </div>
 
       <div class="field">
-        <%= f.label :Password %>
+        <%= f.label :Password, :class => 'pw_label' %>
         <%= f.password_field :password, autocomplete: "current-password" %>
       </div>
 
